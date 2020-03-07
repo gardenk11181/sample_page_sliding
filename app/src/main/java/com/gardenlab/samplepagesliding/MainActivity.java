@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         page = findViewById(R.id.page);
 
         translateLeftAnim = AnimationUtils.loadAnimation(this,R.anim.translate_left);
-        translageRightAnim = AnimationUtils.loadAnimation(this,R.anim.translate_left);
+        translageRightAnim = AnimationUtils.loadAnimation(this,R.anim.translate_right);
 
         SlidingPageAnimationListener animListener = new SlidingPageAnimationListener();
         translateLeftAnim.setAnimationListener(animListener);
